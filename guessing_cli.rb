@@ -16,7 +16,7 @@ def run_guessing_game
       break
     end
    end 
-  else 
+  if guess == "exit" 
     puts "Goodbye!"
   end 
 end 
