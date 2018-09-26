@@ -18,6 +18,6 @@ def run_guessing_game
       guess = gets.chomp
     end 
   elsif guess == "exit"
-    puts "Goodbye"
+    puts "Goodbye!"
   end 
 end 
