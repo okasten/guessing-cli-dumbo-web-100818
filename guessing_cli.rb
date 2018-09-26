@@ -13,9 +13,6 @@ def run_guessing_game
       else 
         puts "The computer guessed #{number}."
       end 
-    else 
-      puts "Guess a number between 1 and 6: "
-      guess = gets.chomp
     end 
   elsif guess == "exit"
     puts "Goodbye!"
